@@ -1,0 +1,16 @@
+{
+  "name": "workshop-3-wheather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server-lite"
+  },
+  "keywords": [],
+  "author": "Alejandro Vera <alejandroverah97@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "server-lite": "^2.0.0"
+  }
+}

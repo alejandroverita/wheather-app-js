@@ -1,0 +1,123 @@
+:root{
+    --background: linear-gradient(47deg, rgba(174, 224, 238, 1) 13%, rgba(166, 217, 236, 1) 45%, rgba(21, 102, 195, 1) 85%);
+    --primary-color-text:aliceblue;
+    --principal-color: #032442;
+    --secondary-color: rgb(97,212,165);
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--background);
+}
+
+.header {
+    font-size: 20px;
+    color: var(--primary-color-text);
+    font-weight: 700;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.input-section {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton {
+    background-color: var(--secondary-color);
+    width: 10%;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--principal-color);
+    
+    border: none;
+    outline: 1px white;
+    border-radius: 10px;
+}
+
+
+
+.boton:hover {
+    background-color: #61d4a580;
+}
+
+.input {
+    margin-right: 8px;
+    color: var(--principal-color);
+    border: 1px solid white;
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px 10px 5px 20px;
+}
+
+.input:focus {
+    border: 4px solid white;
+    outline: white;
+}
+
+.weather-cards {
+    width: 100%;
+    height: 150px;
+}
+
+::placeholder {
+    color: var(--principal-color);
+}
+
+.weather-cards-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temperature {
+    font-size: 50px;
+    padding: 0 auto 0;
+    margin: 10px 0 15px 0;
+}
+
+.city {
+    margin: 20px 0 20px 0;
+    font-size: 22px;
+}
+
+.cards {
+    width: 25%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: #6fb5f7;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+.weather-image {
+    width: 80px;
+    height: auto;
+    margin: 0 auto 0;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+}
